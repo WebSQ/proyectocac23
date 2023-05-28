@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburchetos</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+     <!--Font Awesome-->
+     <script src="https://kit.fontawesome.com/36335fbf54.js" crossorigin="anonymous"></script>
+
+    <!--include boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="" class="logo">Hamburchetos</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="seccion" id="home">
+        <div class="titulo">Productos</div>
+        <div id="caruselHamburguesa" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/bg_intro.jpg" class="d-block w-100" alt="Hamburguesas">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cerveza.jpg" class="d-block w-100" alt="Cerveza">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/veggie0.png" class="d-block w-100" alt="Hamburguesa tipo 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#caruselHamburguesa"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Anterior</font>
+                    </font>
+                </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#caruselHamburguesa"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Próximo</font>
+                    </font>
+                </span>
+            </button>
+        </div>
+    </section>
+    <section class="about container" id="nosotros">
+        <div class="about-img">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/topRLskPSsA" title="Hamburguesas B-roll, un comercial diferente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="about-txt">
+            <h2>100% ingredientes naturales frescos</h2>
+            <p>Nos enorgullecemos de ofrecer un producto de calidad elaborado en nuestro propia planta. Trabajamos con los mejores ingredientes cuidadosamente seleccionados de proveedores locales. Ganaderos, agricultores, panaderos y provedores de alimentos que también compartes nuestros valores.
+            </p>
+            <a href="" class="btn-1">Información</a>
+        </div>
+    </section>
+    <main class="product container" id="productos">
+        <h2>Hamburguesas</h2>
+        <p>Las mejores hamburguesas</p>
+        <div class="product-content">
+            <div class="product-1">
+                <img src="images/burger1.jpg" alt="">
+                <h3>Simple + Papas Fritas</h3>
+                <span>$ 2.800</span>
+                <p>Medallon x1 Cheddar Fetas x2 Bacon Cebolla Crispy Aderezo</p>
+            </div>
+            
+            <div class="product-1">
+                <img src="images/burger2.jpeg" alt="">
+                <h3>American Burger Doble + Papas Fritas</h3>
+                <span>$ 3.000</span>
+                <p>Medallon x2 Cheddar Fetas x4 Tomate Lechuga Cebolla Cruda Dill Pickles Aderezo Thousand Island</p>
+            </div>
+
+            <div class="product-1">
+                <img src="images/burger3.jpg" alt="">
+                <h3>Sweet Spicy Simple + Papas fritas</h3>
+                <span>$ 2.500</span>
+                <p>Medallon x 1 + Cheddar fetas x 2 + Mermelada de Tomate + Pickles de Pepino + Alioli de Jalapeños + Papas Fritas</p>
+            </div>
+
+            <div class="product-1">
+                <img src="images/burger4.jpg" alt="">
+                <h3>Pesto Simple + Papas fritas</h3>
+                <span>$ 2.500</span>
+                <p>Medallon x 1 + Cheddar fetas x 2 + Tomate + Pesto + Alioli + Papas fritas</p>
+            </div>
+        </div>
+        <h2>Cervezas</h2>
+        <p>Las mejores cervezas para las mejores hamburguesas</p>
+        <div class="product-content">
+            <div class="product-1">
+                <img src="images/beer01.png" alt="">
+                <h3>Rubia Lager</h3>
+                <span>$ 1.800</span>
+                <p>Elaborado con maltas, levaduras Lager y un cuidadoso filtrado, da como resultado esta cervesa brillante, con aroma a lúpulo y sabor frutado. Graduación alcoholica 5%</p>
+            </div>
+            
+            <div class="product-1">
+                <img src="images/beer02.png" alt="">
+                <h3>Negra Bock</h3>
+                <span>$ 2.000</span>
+                <p>Elaborado con maltas pilsen y tostadas, Sabor acaramelado y trazas de café. Graduación alcoholica 6%</p>
+            </div>
+
+            <div class="product-1">
+                <img src="images/beer03.png" alt="Cerveceria del Tacuará">
+                <h3>Roja</h3>
+                <span>$ 2.500</span>
+                <p>Elaborado combinando un blend de maltas (pilsen, tostadas y caramelo) para lograr ese color rubí, con sabor acaramelado</p>
+            </div>
+
+            <div class="product-1">
+                <img src="images/beer04.png" alt="Corona">
+                <h3>Honeybeer</h3>
+                <span>$ 3.000</span>
+                <p>Se combinan maltas(pilsen y caramelo) con miel de las sierras cordobesas, que le otorgan un sabor especial</p>
+            </div>
+        </div>
+
+        <h2>Veggie</h2>
+        <p>Somos lo que comemos</p>
+        <div class="product-content">
+            <div class="product-1">
+                <img src="images/veggie1.jpg" alt="">
+                <h3>Mix primavera</h3>
+                <span>$ 3.000</span>
+                <p>Mix primavera + tofu braseado + arroz integral + queso vegano</p>
+            </div>
+            
+            <div class="product-1">
+                <img src="images/veggie2.jpg" alt="">
+                <h3>Tapas multisabor</h3>
+                <span>$ 4.000</span>
+                <p>Tapas variadas de siete sabores de nuestra especialidad. Pensados para ser compartidos por cuatro personas.</p>
+            </div>
+
+            <div class="product-1">
+                <img src="images/veggie3.jpg" alt="">
+                <h3>Hamburguesa de quinoa</h3>
+                <span>$ 2.500</span>
+                <p>Medallon de quinoa x 2 + fetas de queso + verduras frescas</p>
+            </div>
+
+            <div class="product-1">
+                <img src="images/veggie4.jpg" alt="">
+                <h3>Provoleta a la pizza</h3>
+                <span>$ 2.750</span>
+                <p>Pizza de arroz + cebolla + aceitunas + ensalada </p>
+            </div>
+        </div>
+        <section class="pagos container">
+            <h2>Formas de pago</h2>
+            <img src="images/pago01.jpg" alt="efectivo">
+            <img src="images/pago02.jpg" alt="transferencia bancaria">
+            <img src="images/pago03.jpg" alt="cheque">
+            <img src="images/pago04.jpg" alt="visa">
+            <img src="images/pago05.jpg" alt="american express">
+            <img src="images/pago06.jpg" alt="cuenta dni">
+            <img src="images/pago07.jpg" alt="naranja x">
+            <img src="images/pago08.jpg" alt="mercado pago">
+            <img src="images/pago09.jpg" alt="cabal">
+            <img src="images/pago10.jpg" alt="master card">
+            <img src="images/pago11.jpg" alt="maestro">
+            <img src="images/pago12.jpg" alt="diner club international">
+            <img src="images/pago13.jpg" alt="argencard">
+            <img src="images/pago14.jpg" alt="modo">       
+        </section>
+
+    </main>
+
+    <section class="maps">
+        <h2>Ubicación</h2>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0013884375653!2d-58.384286964328346!3d-34.60412639980412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf3b45285d%3A0x747f7989226ec69c!2sKFC!5e0!3m2!1ses!2sar!4v1685214637944!5m2!1ses!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contactos" id="contactos">
+        <h2>Contacto</h2>
+
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required placeholder="Diego Torres">
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com"
+                required data-tipo="email">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="XX XXXX XXXX"
+                pattern="\d{10}" required minlegth="10" maxlength="10" data-tipo="numero">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la
+                Hamburchetos?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Horarios</h3>
+                <ul>
+                    <li><strong>Lunes a Miércoles:</strong></li>
+                    <span>11:30am - 8pm</span>
+                    <li><strong>Juaves a Sábado:</strong></li>
+                    <span>11:30am - 9pm</span>
+                    <li><strong>Domingo:</strong></li>
+                    <span>11:30am - 7pm</span>                  
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Escribinos a</h3>
+                <ul>
+                    <li><a href="#"></a>info@hamburchetos.com.ar</li>
+                    <li><a href="#"></a>ventas@hamburchetos.com.ar</li>
+                    <li><a href="#"></a>admin@hamburchetos.com.ar</li>                    
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Seguinos en</h3>
+                <ul class="footer__social">                    
+                    <li><a href="#" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="fa fa-instagram"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="fa fa-youtube-play"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+                    <li><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <p class="copyright">&copy; 2023 <small><b>Grupo23PythonCaC</b> | Todos los derechos reservados | Términos y condiciones | Protección de datos</small></p>
+    </footer>
+
+    <!--include boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
